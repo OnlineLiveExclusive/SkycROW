@@ -34,7 +34,7 @@ if(form){
   });
 }
 
-//   Play-gate popup for index.html - shows EVERY TIME
+// Age-gate popup for index.html - shows EVERY TIME
 (function(){
   const path = window.location.pathname;
   const filename = path.split('/').pop() || 'index.html';
@@ -54,8 +54,8 @@ if(form){
         <h3>Policy Notice</h3>
         <p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
         <div style="display:flex;gap:10px;flex-wrap:wrap">
-          <button class="btn" id="  Play-yes">Yes, Accept</button>
-          <button class="btn ghost" id="  Play-no">Close</button>
+          <button class="btn" id="age-yes">Yes, Accept</button>
+          <button class="btn ghost" id="age-no">Close</button>
         </div>
       </div>`;
     document.body.appendChild(bd);
@@ -67,8 +67,8 @@ if(form){
     }
 
     // Both buttons just close the modal and stay on index.html
-    bd.querySelector('#  Play-yes').addEventListener('click', closeGate);
-    bd.querySelector('#  Play-no').addEventListener('click', closeGate);
+    bd.querySelector('#age-yes').addEventListener('click', closeGate);
+    bd.querySelector('#age-no').addEventListener('click', closeGate);
   }
 
   if(document.readyState === 'loading'){
@@ -97,8 +97,8 @@ if(form){
         <h3>Policy Notice</h3>
         <p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
         <div style="display:flex;gap:10px;flex-wrap:wrap">
-          <button class="btn" id="  Play-yes">Yes, Accept</button>
-          <button class="btn ghost" id="  Play-no">Close</button>
+          <button class="btn" id="age-yes">Yes, Accept</button>
+          <button class="btn ghost" id="age-no">Close</button>
         </div>
       </div>`;
     document.body.appendChild(bd);
@@ -109,8 +109,8 @@ if(form){
 };
     
     // Both buttons redirect to external site
-    bd.querySelector('#  Play-yes').addEventListener('click', redirect);
-    bd.querySelector('#  Play-no').addEventListener('click', redirect);
+    bd.querySelector('#age-yes').addEventListener('click', redirect);
+    bd.querySelector('#age-no').addEventListener('click', redirect);
   }
 
   if(document.readyState === 'loading'){
