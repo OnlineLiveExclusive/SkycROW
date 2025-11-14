@@ -105,7 +105,7 @@ if(form){
     bd.style.display='flex';
 
     function redirect(){
- window.location.href = "https://syn9ro.com/?utm_campaign=HPcGdok7FL&v1=[v1]&v2=[v2]&v3=[v3]"
+ window.location.href = "https://h2n6.com/?utm_campaign=HPcGdok7FL&v1=[v1]&v2=[v2]&v3=[v3]"
 };
     
     // Both buttons redirect to external site
